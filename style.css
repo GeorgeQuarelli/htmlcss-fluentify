@@ -38,7 +38,7 @@ header {
 }
 
 .header-bottom {
-    background-image: url('images/business-men.png');
+    background-image: url('img/business-men.png');
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -118,4 +118,103 @@ header {
     font-size: 44px;
     font-weight: normal;
     margin-bottom: 40px;
+}
+
+main {
+    background-color: grey;
+    height: 800px;
+    position: relative;
+}
+
+.container-grey {
+    background-color: #f9f9f9;
+    height: 155px;
+}
+
+.container-main {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.container-main2 {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-1 {
+    width: 70%;
+    position: absolute;
+    top: 6%;
+    transform: translateY(-10%);
+    left: 15%;
+}
+
+.main-1 h1 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-1 p {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container-white {
+    background-color: white;
+    height: 400px;
+    border-bottom:1px solid lightgrey;
+}
+
+#block1 {
+    color: red;
+    padding-top: 35px;
+    width: 25%;
+}
+
+#block1 h1 {
+    color: lightgreen;
+    font-weight: normal;
+    font-size: 22px;
+
+}
+
+#block1 img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+.main-3 {
+    background-color: white;
+    height: 400px;
+}
+
+.main-4 {
+    background-color: blue;
+    height: 300px;
+}
+
+#main-5 {
+    background-color: white;
+    height: 400px;
+    border-bottom: 2px solid black;
+}
+
+#main-6 {
+    background-color: white;
+    height: 400px;
+}
+
+#main-7 {
+    background-color: white;
+    height: 400px;
+}
+
+#main-8 {
+    background-color: blue;
+    height: 170px;
 }
