@@ -165,25 +165,85 @@ main {
 
 .container-white {
     background-color: white;
-    height: 400px;
+    height: 550px;
     border-bottom:1px solid lightgrey;
 }
 
 #block1 {
-    color: red;
+    float: left;
     padding-top: 35px;
-    width: 25%;
+    width: 30%;
 }
 
 #block1 h1 {
     color: lightgreen;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+#block1 p {
+    font-weight: normal;
+    font-size: 16px;
 
 }
 
 #block1 img {
-    max-width: 40%;
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+#block2 {
+    float: left;
+    padding-top: 35px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#block2 h1 {
+    color: lightgreen;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 55px;
+
+}
+
+#block2 p {
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+#block2 img {
+    max-width: 51%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+#block3 {
+    float: left;
+    padding-top: 35px;
+    width: 30%;
+}
+
+#block3 h1 {
+    color: lightgreen;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+#block3 p {
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+#block3 img {
+    max-width: 35%;
     height: auto;
     margin-bottom: 45px;
 }
