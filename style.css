@@ -143,6 +143,11 @@ main {
     text-align: center;
 }
 
+.container-main3 {
+    width: 1300px;
+    margin: auto;
+}
+
 .main-1 {
     width: 70%;
     position: absolute;
@@ -167,6 +172,11 @@ main {
     background-color: white;
     height: 550px;
     border-bottom:1px solid lightgrey;
+}
+
+.container-white2 {
+    background-color: white;
+    height: 550px;
 }
 
 #block1 {
@@ -251,6 +261,42 @@ main {
 .main-3 {
     background-color: white;
     height: 400px;
+}
+
+#grafico {
+    float: left;
+    padding-top: 65px;
+    width: 50%;
+}
+
+#grafico img {
+    padding-left: 20%;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+#block4 {
+    float: left;
+    padding-top: 185px;
+    width: 30%;
+    margin-left: 10%
+}
+
+#block4 h1 {
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+#block4 p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#block4 a {
+    font-size: 16px;
+    color: lightblue;
 }
 
 .main-4 {
